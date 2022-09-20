@@ -4,8 +4,8 @@ import {
   faCss3,
   faGitAlt,
   faHtml5,
-  faJsSquare,
   faReact,
+  faPython,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -33,9 +33,9 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a very ambitious and hard-working trying to learn latest
+            technologies and making projects.
+            I have knowledge of programming languages like c,c++,python etc..
           </p>
           <p align="LEFT">
             I'm quiet confident, naturally curious, and perpetually working on
@@ -43,8 +43,8 @@ const About = () => {
           </p>
           <p>
             If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            person,a sports fanatic,
+            Gym enthusiast, and tech-obsessed!!!
           </p>
         </div>
 
@@ -63,7 +63,7 @@ const About = () => {
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <FontAwesomeIcon icon={faPython} color="#EFD81D" />
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
